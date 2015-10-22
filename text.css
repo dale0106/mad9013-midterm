@@ -1,0 +1,244 @@
+       *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        }
+
+        h1{
+        background-image: url("http://lorempixel.com/1000/1000/cats/");
+        font-family: sans-serif;
+        background-color:#FFC136;
+        margin: 10px auto;
+        text-align: center;
+        font-size: 40px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        background-repeat: no-repeat;
+    
+        }
+
+        nav{
+  
+        
+        }
+        .wrapper{
+            background-color: #FFFE35;
+            width: 95%;
+            margin: 0 auto;
+            
+        }   
+        nav ul{
+   
+        background-color: #E8CA26;
+        }
+
+        nav ul li{
+        text-align: center;
+        border: 2px solid black;
+        display:block;
+        width: 100%:
+        }
+
+        nav ul li a{
+
+        text-decoration: none;
+        font-size: 20px;
+        font-family:'Roboto', sans-serif;
+        color: black;
+        }
+
+        h2{ 
+        text-align: center;
+        margin: 10px;
+        font-family: 'Roboto', sans-serif;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        }
+
+        img{
+      
+        float: left;
+        width: 100%;
+        height: auto;
+        }
+
+        p{
+
+        font-family: 'Roboto', sans-serif;
+        text-align: justify;
+        
+        }
+
+        h3{
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        }
+
+        footer p {
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        background-color:#FFCE37;
+        
+        }
+
+        footer{
+        width: 100%;
+        }
+
+@media  all and (min-width:35em) and (max-width: 60em) {
+  
+    
+        .wrapper{
+        
+        margin: 0px;
+        margin: 0px;
+        background-color:#E88620;
+        }
+    
+        .masthead{
+        text-align: center;
+        display:inline;
+        width: 100%;
+        }
+    
+        h1{
+        background-color: #6800FF;
+        background-image: url("http://lorempixel.com/800/800/cats/");
+        height: 20%;
+        width: 100%:
+        
+        }
+    
+        .mainnav{
+        width: 100%;
+        }
+      
+        nav  li{
+        width: 25%;
+        float:right;
+      
+        border: 2px solid black;
+        display:block;
+        
+        }
+    
+        nav ul{
+        display: block;
+        }
+    
+        nav ul li a{
+        
+        }
+    
+        p{
+    
+        } 
+    
+        .primary{
+        float: left;
+        width: 63%;
+        padding: 10px;
+    
+        }
+    
+        .side{
+        float: right;
+        width: 37%;
+        padding: 10px;
+       
+        }
+    
+        .side h3{
+        margin-bottom:20px;
+        }
+    
+        footer{
+        display: inline-block;
+      
+      
+        }
+    
+        footer p{
+        text-align: center;
+        }
+  }
+
+@media all and (min-width:60em) and (max-width:1600px){
+    
+        *{
+        margin: 0;
+        padding: 0;
+        }
+    
+        .masthead{
+
+        }
+    
+        .wrapper{
+        background-color:#FF3644;
+        }
+    
+        h1{
+        background-color: #FF4030;
+        width: 100%:
+        }
+    
+        
+    
+        .mainnav{
+        width: 15%;
+        height: 25%;
+        float: left;
+        padding-bottom: 1600px;
+        background-image: url("http://lorempixel.com/500/500/cats/");
+        background-repeat: no-repeat;
+        
+        }
+    
+        nav ul li{
+        display: block;
+        background-color: #D12727;
+        height: 60px;
+      
+        }
+    
+        nav ul li a{
+        padding-top: 10px;
+        text-align: center;
+        }
+    
+        p{
+        
+        }
+    
+
+        footer{
+            float: left;
+            width: 100%;
+        }
+        
+        footer p{
+        text-align: center;
+        }
+    
+        .content{
+        width: 50%;
+        float: left;
+        padding:10px;
+        }
+    
+        .side{
+            
+        float: right;
+        width: 25%;
+        }
+        
+        
+    
+    }
+
+    
+}
+
